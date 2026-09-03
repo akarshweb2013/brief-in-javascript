@@ -1,0 +1,43 @@
+<html>
+    <head>
+<title>my game profile</title>
+    
+    <style>
+       body {
+        font-family:Arial, sans-serif;
+        background: aliceblue;
+        text-align: center;
+        padding: 30px;
+    }
+    h1 {color:navy}
+    button {
+        background: navy ;
+        color: white;
+        padding: 10px 25px ;
+        border:none;
+        border-radius: 20px;
+        cursor: pointer;
+
+    }
+    div {
+        border: 1px solid navy;
+        width: 280px;
+        margin: 6px auto;
+        padding: 8px 12px;
+        text-align: left;
+        border-radius: 6px;
+
+    }
+
+
+    </style>
+    </head>
+    <body>
+        <h1>
+            my game profile
+        </h1>
+      <button onclick="showprofile()">show profile
+      </button> 
+      <div>name: <span id=</div>
+    </body>
+</html>
